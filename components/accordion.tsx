@@ -42,7 +42,7 @@ export function Accordion(){
         <motion.div 
         initial={{opacity: 0}}
         animate={{opacity: 1}}
-        transition={{duration: 1, ease: "easeInOut"}}
+        transition={{duration: 0.3, ease: "easeInOut"}}
         className="flex flex-col gap-3">
         {accordionData.map((items) => (
             <div key={items.id} className="rounded-lg shadow-lg inset-shadow-2xs p-2 w-[30vw]"> 

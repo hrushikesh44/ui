@@ -9,7 +9,7 @@ export default function AuthCard(){
         <motion.div
         initial={{opacity: 0}}
         animate={{ opacity: 1}}
-        transition={{duration: 1, ease: 'easeInOut'}}
+        transition={{duration: 0.5, ease: 'easeInOut'}}
         className="flex flex-col max-w-96 h-fit rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] px-8 py-10">
             <div className="mt-2">
                 <h2 className="font-bold text-xl">Login to Example Inc</h2>
