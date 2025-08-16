@@ -6,11 +6,9 @@ export default function Layout({
     }: {
     children: ReactNode}){
     return(
-        <div className="flex items-center mx-auto max-w-5xl">
-            <div className="flex gap-40">
-                <Sidebar />
-                {children}
-            </div>
+        <div className="flex items-center justify-center">
+            <Sidebar />
+            {children}
         </div>
     )
 }
