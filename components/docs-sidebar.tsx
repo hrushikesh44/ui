@@ -17,6 +17,7 @@ export function Sidebar(){
                 <SidebarItem href="/docs/tooltip" item="Tool Tip"/>
                 <SidebarItem href="/docs/card-auth" item="Auth Card"/>
                 <SidebarItem href="/docs/modal" item="Modal" />
+                <SidebarItem href="/docs/toast" item="Toast" />
             </div>
             {/* Sidebar Footer*/}
             <div>
